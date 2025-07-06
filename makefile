@@ -1,6 +1,6 @@
 # Used by `image`, `push` & `deploy` targets, override as required
 IMAGE_REG ?= docker.io
-IMAGE_REPO ?= sevenajay/dotnet-monitoring
+IMAGE_REPO ?= rohitjain064/dotnet-monitoring
 IMAGE_TAG ?= latest
 
 # Used by `deploy` target, sets Azure webap defaults, override as required
